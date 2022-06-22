@@ -14,6 +14,9 @@ function doCalculate(e){
             display.innerHTML="0"
             break;
          case "DEL":
+             if(display.innerHTML=="Error"){
+                display.innerHTML="0"
+             }
              if(display.innerHTML){
 
            
